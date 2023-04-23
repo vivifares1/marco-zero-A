@@ -1,0 +1,81 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+  background-color: rgb(137, 174, 206);
+}
+
+header{
+    background-color: rgb(137, 174, 206);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+nav{
+    background-color: rgb(225, 225, 238);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 50px;
+    }
+   
+.Main_principal{
+   height: 100%;
+   display: flexbox;
+   align-items: flex-start;
+   gap: 40px;
+   padding: 0px 310px;
+}
+
+.main_title{
+  align-self: flex-start;
+  padding-top: 10px;
+ }
+
+.h1_titulo{
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Informacao_text{
+  width: 500px;
+  height: 120px;
+  padding: 30px;
+}
+
+.Informacao_text{
+  scale:  1.04;
+  transition: all 0.8 ease-in-out;
+}
+
+.Corpo_texto{
+  width: 550px;
+  height: 200px;
+  padding: 10px;
+}
+
+.footer{
+  width: 550;
+  height: 250;
+  padding-bottom: 200;
+}
+
+.Redes_sociais{
+  list-style-type: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
